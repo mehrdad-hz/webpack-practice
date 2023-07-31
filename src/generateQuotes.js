@@ -7,7 +7,7 @@ function generateQuotes() {
   axios
     .get("https://api.api-ninjas.com/v1/quotes?category=computers", config)
     .then((res) => {
-      document.getElementById("joke").innerHTML = res.data[0].quote;
+      document.getElementById("quote").innerHTML = res.data[0].quote;
     });
 }
 
