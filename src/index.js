@@ -1,8 +1,8 @@
 import generateQuotes from "./generateQuotes";
 import "./styles/main.scss";
 
-const jokeBtn = document.getElementById("quoteBtn");
+const QuoteBtn = document.getElementById("quoteBtn");
 
-jokeBtn.addEventListener("click", generateQuotes);
+QuoteBtn.addEventListener("click", generateQuotes);
 
 generateQuotes();
